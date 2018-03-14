@@ -1,0 +1,53 @@
+/** COLORS */
+
+$primaryColor  : #C62127;
+$primarybackgroundColor: #CC383D;
+$secondaryColor     : #555555;
+$secondaryLight    : #797C7E;
+$gray     : #555555;
+$orange     : #F29040;
+$lightGray      : #F2F2F2;
+$formGray   : #333132;
+
+$textColor: #000000;
+$linkColor: $primaryColor;
+$linkHoverColor: $textColor;
+
+
+$screen-lg-min: 1199px;
+$screen-lg-max: ($screen-lg-min - 1);
+$screen-md-min: 992px;
+$screen-md-max: ($screen-md-min - 1);
+$screen-sm-min: 768px;
+$screen-sm-max: ($screen-sm-min - 1);
+$screen-xsm-min: 576px;
+$screen-xsm-max: ($screen-xsm-min - 1);
+
+/** FONTS */
+$baseFont      : Lato, Arial, sans-serif;
+$blackFont     : Lato, Arial Black, sans-serif;
+$headingFont   : $baseFont;
+$altFont       : $baseFont;
+$bodyFont      : $baseFont;
+
+$h1FontSize  : 6.5rem; // 65px
+$h2FontSize  : 3rem; // 30px
+$h3FontSize  : 2.7rem; // 27px
+$h4FontSize  : 2.5rem; // 25px
+$h5FontSize  : 2.2rem; // 22px
+$bodyFontSize: 2rem; // 20px
+
+/** PARTIALS */
+
+@import "base";
+@import "blog";
+@import "header";
+@import "forms";
+@import "navigation";
+@import "mobile_nav";
+@import "content";
+@import "sliders";
+@import "footer";
+@import "overrides";
+@import "flex_elements";
+@import "responsive";

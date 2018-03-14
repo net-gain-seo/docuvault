@@ -1,0 +1,12 @@
+.slide-buy12 { // img
+    background: url(https://bins4shredding.com/wp-content/uploads/2017/09/purchase-12-get-2.png) left center no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    padding-bottom: 30%;
+}
+
+@media screen and (max-width: 767px) {
+    .slide-buy12 {
+        background-position: center center;
+    }
+}

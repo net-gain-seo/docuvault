@@ -1,0 +1,364 @@
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+textarea {
+    display: block;
+    width: 100%;
+    height: 48px;
+    border-radius: 0px;
+    box-shadow: none;
+    background-image: none;
+    // -webkit-appearance: none;
+    font-family: inherit;
+    font-size: 14px;
+    padding-right: 8px;
+    padding-left: 8px;
+
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+    color: rgba(0, 0, 0, 0.75);
+}
+select {
+    padding: 5px;
+}
+.textarea-lg {
+    height: 96px;
+}
+::-webkit-input-placeholder {
+    color: $gray;
+}
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+    display: none!important;
+}
+.footer-form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    p,
+    > .wpcf7-form-control-wrap {
+        flex: 1 0 0%;
+        padding: 4px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .submit-container {
+        flex: 1 0 100%;
+        margin-top: 30px;
+        text-align: center;
+        .btn-secondary-light {
+            font-weight: bold;
+            background: $secondaryLight;
+            border: none;
+            color: #fff;
+            padding: 10px 45px;
+            transition: background-color 0.2s ease-in-out;
+        }
+        // submit button container inserted by CF7
+        > p {
+            display: inline-block;
+            vertical-align: middle
+        }
+        // captcha wrapper inserted by contact form 7
+        > .wpcf7-form-control-wrap {
+            position: relative;
+            width: 194px;
+            height: 46px;
+            padding: 0;
+            margin: -2px 0 0 5px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+    // reCaptcha
+    .footer-recaptcha {
+        transform: scale(0.64);
+        transform-origin: 0 0;
+    }
+    iframe {
+        position: relative;
+    }
+    select,
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"],
+    input[type="number"],
+    input[type="search"],
+    textarea {
+        box-sizing: border-box;
+        font-size: 18px;
+        border: 1px solid $formGray;
+    }
+    ::-webkit-input-placeholder {
+        color: $gray;
+    }
+    div.wpcf7-response-output {
+        margin: 24px auto 0 auto;
+    }
+    .wpcf7-not-valid-tip {
+        color: yellow;
+        font-size: 14px;
+        padding-top: 6px;
+    }
+}
+input[type="submit"] {
+    &.btn-secondary-light {
+        &:hover {
+            cursor: pointer;
+            background-color: $primaryColor;
+            transition: background-color 0.2s ease-in-out;
+        }
+    }
+}
+.cform {
+    padding: 1rem;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.25);
+
+    input,select {
+        border: 1px solid $formGray;
+    }
+    .g-recaptcha {
+        margin-bottom: 1rem;
+    }
+    .btn-secondary-light {
+        font-weight: bold;
+        background: #72bc44;
+        border: none;
+        color: #fff;
+        padding: 10px 45px;
+        transition: background-color 0.2s ease-in-out;
+    }
+}
+.i4ewOd-pzNkMb-haAclf {
+    display: none;
+}
+#popForm {
+    .popover-header {
+        background-color: $secondaryLight;
+    }
+    h3 {
+        color: #fff;
+    }
+    p {
+        font-size: 16px;
+    }
+    input[type="text"],input[type="email"],input[type="tel"],select {
+        background: $lightGray;
+        border: 1px solid $gray;
+        height: 43px;
+    }
+    input[type="submit"] {
+        padding: 12px 30px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .g-recaptcha {
+        margin-bottom: 1rem;
+    }
+    .modal-body {
+        padding: 25px;
+    }
+}
+.PageSummary.signupform p {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 0rem;
+}
+.PageSummary.signupform{
+  p.pull-right{
+        margin-top: 10px;
+  }
+}
+.g-recaptcha{
+  margin-bottom: 2rem;
+}
+.signupform{
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="number"] {
+      display: block;
+      width: 325px;
+      border-radius: 0px;
+      box-shadow: none;
+      background-image: none;
+      padding-right: 10px;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 1px solid lightgray;
+      height:50px;
+      font-size: 20px;
+      font-family: 'Open Sans';
+      color: #797C7E;
+  }
+  .button {
+      border: 0px;
+      margin-left: 15px;
+  }
+}
+.contactform{
+  h3{
+    text-align: center;
+  }
+  .wpcf7{
+    padding: 60px 100px;
+    background-color: #F2F2F2;
+    -moz-box-shadow: 3px 3px 11px 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 3px 3px 11px 6px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 11px 6px rgba(0,0,0,0.3);
+    z-index: 99;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px!important;
+  }
+  .wpcf7#wpcf7-f898-p908-o1, .wpcf7#wpcf7-f903-p842-o1{
+    margin-top: 0px;
+    margin-bottom: 0px!important;
+  }
+  input::-webkit-input-placeholder, select option::-webkit-input-placeholder, textarea::-webkit-input-placeholder, label { /* Chrome/Opera/Safari */
+    color: #797C7E;
+  }
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="number"] {
+      display: block;
+      width: 100%;
+      border-radius: 0px;
+      box-shadow: none;
+      background-image: none;
+      padding-right: 10px;
+      padding-left: 20px;
+      background-color: #fff;
+      border: 1px solid lightgray;
+      height: 50px;
+      font-size: 20px;
+      font-family: 'Open Sans';
+      color: #797C7E;
+  }
+  textarea{
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    height: 220px;
+    color: #797C7E;
+  }
+  select{
+    background-color: #fff;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    padding:5px;
+    padding-left: 20px;
+    font-family: 'Open Sans';
+    color: #797C7E;
+    height: 50px;
+    option{
+          color: #797C7E;
+    }
+  }
+  .button {
+      border: 0px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+    .footer-form {
+        p {
+            flex-basis: 25%
+        }
+        .submit-container {
+            margin-top: 24px;
+            flex-basis: 100%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .contact-page-form {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        > p {
+            flex-basis: 50%;
+            padding: 0 8px;
+            &.textarea {
+                flex-basis: 100%;
+            }
+        }
+        .submit-container {
+            text-align: center;
+        }
+
+        select,
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="password"],
+        input[type="number"],
+        input[type="search"],
+        textarea {
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-contact-container {
+        .container {
+            width: 100% !important;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .footer-form {
+        p {
+            flex-basis: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-form {
+        p {
+            flex-basis: 100%;
+        }
+        .submit-container {
+            > .wpcf7-form-control-wrap { // recaptcha
+                margin-right: 17px;
+            }
+            > p {
+                margin-top: 24px;
+            }
+        }
+    }
+    .contact-page-form {
+        .submit-container {
+            text-align: center;
+            > p {
+                display: block;
+                margin-top: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .contact-page-form {
+        .submit-container {
+            text-align: center;
+            padding: 0;
+        }
+    }
+}
+@media screen and (max-width: 491px) {
+    .contact-page-form {
+        > p {
+            flex-basis: 100%;
+        }
+    }
+}

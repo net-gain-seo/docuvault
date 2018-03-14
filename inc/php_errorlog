@@ -1,0 +1,118 @@
+[29-Aug-2017 22:27:23 CST6CDT] PHP Fatal error:  require(): Failed opening required '/srv/www/docuvaultdv.com/public_html/wp-load.php' (include_path='.:/usr/local/php70/pear') in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/receive-sugar-leads-nds-connect.php on line 9
+[29-Aug-2017 22:28:43 CST6CDT] PHP Fatal error:  require(): Failed opening required '../../../wp-load.php' (include_path='.:/usr/local/php70/pear') in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/receive-sugar-leads-nds-connect.php on line 9
+[29-Aug-2017 22:28:52 CST6CDT] PHP Fatal error:  require(): Failed opening required '../../wp-load.php' (include_path='.:/usr/local/php70/pear') in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/receive-sugar-leads-nds-connect.php on line 9
+[30-Aug-2017 03:29:03 UTC] WordPress database error Table 'docuvaul_wpddv.sugar_leads' doesn't exist for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[30-Aug-2017 03:29:03 UTC] WordPress database error Table 'docuvaul_wpddv.sugar_leads' doesn't exist for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[30-Aug-2017 03:31:13 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[30-Aug-2017 03:44:35 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[31-Aug-2017 02:16:08 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[31-Aug-2017 18:23:51 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[07-Sep-2017 13:45:59 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[27-Sep-2017 08:57:09 CST6CDT] PHP Notice:  Undefined variable: matchfield_explode in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/sugar.php on line 64
+[27-Sep-2017 08:57:09 CST6CDT] PHP Notice:  Undefined variable: matchvalue in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/sugar.php on line 65
+[27-Sep-2017 08:57:10 CST6CDT] PHP Notice:  Undefined variable: matchfield_explode in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/sugar.php on line 75
+[27-Sep-2017 08:57:10 CST6CDT] PHP Warning:  Invalid argument supplied for foreach() in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/sugar.php on line 75
+[27-Sep-2017 08:57:10 CST6CDT] PHP Notice:  Undefined variable: matchmodule in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/sugar.php on line 129
+[02-Oct-2017 10:05:46 CST6CDT] PHP Warning:  require(/home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/wp-load.php): failed to open stream: No such file or directory in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/sugar-import.php on line 5
+[02-Oct-2017 10:05:46 CST6CDT] PHP Fatal error:  require(): Failed opening required '/home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/wp-load.php' (include_path='.:/usr/local/php70/pear') in /home/docuvaul/public_html/wp-content/themes/docuvault-bootstrap/inc/sugar-import.php on line 5
+[18-Dec-2017 15:21:53 UTC] WordPress database error Table 'docuvaul_2017.sugar_leads' doesn't exist for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[18-Dec-2017 15:21:53 UTC] WordPress database error Table 'docuvaul_2017.sugar_leads' doesn't exist for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[18-Dec-2017 15:23:13 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[18-Dec-2017 15:24:02 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[18-Dec-2017 15:24:25 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[18-Dec-2017 15:24:34 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', '.', '.', '', 
+		'', '', '', '', '', 
+		'', '', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[19-Dec-2017 20:47:57 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', 'lisa', 'Gentile', '(732) 688-1816', 
+		'rosniky@msn.com', '', '07746', 'Residential', 'Mobile Shredding', 
+		'One Time Only', '5 to 10 Boxes', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[27-Dec-2017 14:33:26 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', 'Cheryl', 'Macdougall', '(215) 805-8293', 
+		'macdougall.cheryl@gmail.com', '', '19426', 'Residential', 'Mobile Shredding', 
+		'One Time Only', '11 to 20 Boxes', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[04-Jan-2018 15:27:05 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', 'Dayna', 'Flores', '(732) 770-9837', 
+		'Marketing@theglandergroup.com', '', '07762', 'Business', 'Mobile Shredding', 
+		'One Time Only', 'More than 20 Boxes', '', '', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[09-Jan-2018 20:38:30 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', 'Jeff', 'Phipps', '(888) 659-3477', 
+		'jeff.phipps@steveweissmusic.com', '', '19090', 'Business', 'Mobile Shredding', 
+		'One Time Only', 'More than 20 Boxes', '', '100 bankers boxes', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')
+[10-Jan-2018 17:48:02 UTC] WordPress database error  for query INSERT INTO sugar_leads (account_name, first_name, last_name, phone_work, webtolead_email1, primary_address_street,  
+		primary_address_postalcode, location_type_c, shred_location_c, shred_frequency_c, ss_c, services_c, description, campaign_id, 
+		assigned_user_id, lead_source, lead_source_description) VALUES ('', 'Mary', 'Larsen', '(888) 992-9276', 
+		'admin@amstatcorp.com', '', '07724', 'Business', 'Mobile Shredding', 
+		'One Time Only', '11 to 20 Boxes', '', '15-20 boxes of paper and a box of hard drives', 'd3295a4a-4c49-b91e-d0ad-5391beeb696b', '9026574a-8339-fa93-51bd-54e20b9d3d52', 'Corkd', 
+		'Corkd')

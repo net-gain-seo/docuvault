@@ -1,0 +1,206 @@
+#closeNav {
+    display: none;
+}
+.main-nav {
+    // Common to all elements
+    font-size: 2rem;
+    font-weight: 400;
+    a {
+        display: block;
+        padding: 20px;
+        background-color: transparent;
+        color: #58595B;
+        transition: all 0.15s ease-in;
+    }
+    a:hover {
+        color: $primaryColor;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li {
+      position: relative;
+      line-height: 1.5;
+      margin-bottom: 0rem;
+        a:hover,
+        &.current_page_item > a {
+            color: $primaryColor;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+        &.current_page_parent > a{
+          color: $primaryColor;
+        }
+    }
+}
+
+// Level 1 specific
+.main-nav {
+    > ul {
+        display: flex;
+        justify-content: flex-end;
+        > li {
+            > a {
+                position: relative;
+                //margin-left: 1px;
+                transition: height 0.2s ease-in-out;
+                &:hover {
+                    &::after {
+                        height: 10px;
+                    }
+                }
+            }
+            &:hover {
+                > a {
+                    position: relative;
+                    //margin-left: 1px;
+                    transition: height 0.2s ease-in-out;
+                }
+            }
+            &.quote-button {
+                background-color: $orange;
+                color: white;
+                transition: background-color 0.2s ease-in-out;
+                    &:hover {
+                    background-color: $secondaryColor;
+                    color: white;
+                    transition: background-color 0.2s ease-in-out;
+                    a {
+                        background-color: $secondaryColor;
+                        color: white;
+                        transition: background-color 0.2s ease-in-out;
+                    }
+                }
+                a{
+                  font-weight: bold;
+                  color: white;
+                }
+            }
+        }
+        > li {
+            //margin-left: 1px;
+            &:hover {
+                a {
+                    color: $primaryColor;
+                }
+                > ul {
+                    opacity: 1;
+                    left: 0;
+                    z-index: 10;
+                }
+            }
+        }
+    }
+}
+.quote-button{
+  background-color: $orange;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+// Level 2 specific
+.main-nav {
+    ul ul {
+        position: absolute;
+        left: -9999em;
+
+        transition: opacity 0.15s ease-in;
+        padding: 10px 0px;
+        background-color: #787c7e;
+        width: 300px;
+        li {
+            background-color: $secondaryLight;
+            white-space: nowrap;
+            a {
+                transition: background-color 0.1s ease-in-out;
+                color: white!important;
+                font-size: 2rem;
+                padding: 10px 20px;
+                &:hover {
+                    background-color: $primaryColor;
+                    color: white!important;
+                }
+            }
+        }
+        .current-menu-item, .current-menu-parent{
+          //background-color: $primaryColor;
+        }
+    }
+    .current_page_ancestor a{
+          color: $primaryColor;
+    }
+    #menu-main-menu ul li:hover > ul{
+    position: absolute;
+    left: 300px;
+    top: -10px;
+    padding: 10px 0px 10px 10px;
+    background-color: $primaryColor;
+    li{
+      background-color: $primaryColor;
+      color: white;
+    }
+    li:hover{
+      background-color: $secondaryLight;
+      color: white;
+      a:hover{
+        background-color: $secondaryLight;
+        color: white;
+      }
+    }
+    .current_page_item {
+      //  background-color: $secondaryLight;
+    }
+  }
+}
+.current_page_ancestor a{
+      color: $primaryColor;
+}
+
+
+
+.sticky-header .main-nav {
+    ul ul {
+        position: absolute;
+        left: -9999em;
+
+        transition: opacity 0.15s ease-in;
+        padding: 10px 0px;
+        background-color: #787c7e;
+        width: 300px;
+        li {
+            background-color: $secondaryLight;
+            white-space: nowrap;
+            a {
+                transition: background-color 0.1s ease-in-out;
+                color: white!important;
+                font-size: 2rem;
+                padding: 10px 20px;
+                &:hover {
+                    background-color: $primaryColor;
+                    color: white!important;
+                }
+            }
+        }
+        .current-menu-item, .current-menu-parent{
+          //background-color: $primaryColor;
+        }
+        .current-menu-item{
+          //background-color: $primaryColor;
+        }
+    }
+}
+@media screen and (max-width: 1199px) {
+    .main-nav {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .no-scroll {
+        overflow-y: scroll !important;
+    }
+}

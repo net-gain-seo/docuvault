@@ -1,0 +1,458 @@
+@media only screen and (max-width: $screen-lg-min) {
+  .contentalign.padding100, .contentalign.padding90, .contentalign.padding80,
+  .contentalign.padding70, .contentalign.padding60, .contentalign.padding50, .contentalign.padding40, .contentalign.padding30, .contentalign.padding10{
+    padding: 0px;
+  }
+  .container-fluid {
+    .contentalign.padding100, .contentalign.padding90, .contentalign.padding80,
+    .contentalign.padding70, .contentalign.padding60, .contentalign.padding50, .contentalign.padding40, .contentalign.padding30, .contentalign.padding10{
+      padding: 25px 0px;
+    }
+  }
+  .slider-content h1 {
+      font-weight: bold;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-size: 5rem;
+      color: white;
+  }
+  .slider-content h2 {
+      font-size: 2.7rem;
+      font-weight: 400;
+      margin-bottom: 2rem;
+      color: white;
+      text-align: center;
+  }
+  .sticky-header .main-nav a {
+      display: block;
+      padding: 46px 15px 20px 15px;
+      background-color: transparent;
+      color: #58595B;
+      transition: all 0.15s ease-in;
+  }
+  .validsection{
+    .col-lg-6{
+      margin-bottom: 60px;
+    }
+    .col-lg-6 + .col-lg-6{
+      margin-bottom: 0px;
+    }
+  }
+  .servicesection .col-lg-4 {
+      padding: 20px 20px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: $screen-md-min) {
+  .col {
+      *:last-child {
+          margin-bottom: 0;
+          img, iframe{
+            margin-top: 2.5rem;
+          }
+          .alignright, .alignleft{
+            margin-top: 2.5rem!important;
+          }
+          .carousel-item img, .page-numbers img{
+            margin-top: 0rem!important;
+          }
+      }
+  }
+  .absolutepadding0{
+    img{
+      margin-top: 0rem!important;
+    }
+    .alignright, .alignleft{
+      margin-top: 0rem!important;
+    }
+    .col *:last-child .alignright, .col *:last-child .alignleft{
+      margin-top: 0rem!important;
+    }
+  }
+  .carousel-title span {
+      background-color: white;
+      color: orange;
+      height: 125px;
+      line-height: 1.3;
+      width: 125px;
+      font-size: 9rem;
+      display: block;
+      border-radius: 100%;
+      text-align: center;
+      vertical-align: middle;
+      margin-right: 0px;
+      float: none;
+      margin: auto;
+  }
+  .single .post_title {
+      position: relative;
+      top: 0px;
+      width: 100%;
+  }
+    .blog-sidebar {
+      margin: 10px 0 !important;
+    }
+    .splitpage .datespacing{
+      display: none;
+    }
+    .post_title {
+      position: relative;
+      top: 0;
+      padding: 20px 0px;
+      width: 100%;
+      background: #cc383c;
+  }
+  #featured-image img {
+      min-height: 0px;
+      min-width: 0px;
+      width: 100%;
+      position: relative;
+  }
+  .costsection{
+    .col-lg-6{
+      border-right: 0px solid white;
+      margin-bottom: 20px;
+    }
+    .col-lg-6:last-child{
+      margin-bottom: 0px;
+    }
+  }
+  .certifiedsection, .dscertsection{
+    .col-lg-4{
+      margin-bottom: 20px;
+    }
+    .col-lg-4:last-child{
+      margin-bottom: 0px;
+    }
+  }
+  .certifiedsection h2 {
+      margin-bottom: 1rem !important;
+  }
+  .xraysection{
+    .xraycol{
+      margin-bottom: 20px;
+    }
+    .xraycol + .xraycol{
+      margin-bottom: 0px;
+    }
+  }
+  .contactform .wpcf7 {
+    padding: 25px 25px;
+  }
+  .certifiedlist{
+    float: left;
+    width: 50%;
+  }
+  .sticky-header {
+      padding-top: 239px;
+  }
+  .PageSummary.signupform p.pull-right {
+      margin-top: 0px;
+      float: none;
+  }
+  .servicesection{
+    .imagebox{
+      height: 75px;
+      display: block;
+      position: relative;
+      margin-bottom: 10px;
+      img{
+      position: absolute;
+      bottom: 0px;
+      }
+    }
+    p{
+      line-height: 1.6;
+      padding-right: 0px;
+    }
+  }
+    .contactpage div.wpcf7 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .padding50 {
+        padding: 50px 15px;
+    }
+    .padding25 {
+        padding: 25px 15px;
+    }
+    .padding20 {
+        padding: 20px 15px;
+    }
+    .padding0 {
+        padding: 0px 15px !important;
+    }
+    .absolutepadding0 .padding0 {
+        padding: 0px!important;
+    }
+    #menu-footer-menu {
+        float: none;
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+    }
+    #page_sidebar {
+        background-color: #86888b;
+        padding: 40px 10px;
+        margin: 0px 0px;
+        margin-bottom: -40px;
+    }
+    .footer-left .textwidget, .footer-right .textwidget {
+        margin: auto;
+        text-align: left;
+    }
+    .darkbanner .Abouttitle {
+      color: white;
+      font-size: 4.5rem;
+      bottom: 0;
+      margin-bottom: 2rem!important;
+      position: relative!important;
+    }
+    .redbanner .col {
+        border-right: 0px solid white;
+        padding: 20px 0px;
+    }
+    .industriessection .col{
+        padding: 20px 0px;
+    }
+    footer .social .socialalign {
+        position: relative;
+        bottom: 10px;
+    }
+    .slider-content h1 {
+        font-weight: bold;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: white;
+    }
+    .slider-content h2 {
+        margin-bottom: 1rem;
+    }
+    .slider-wrap .slider-content .inner-content {
+        padding: 20px;
+    }
+    .certifiedsection{
+      .pull-left, .pull-right{
+        float: none;
+        margin: auto;
+        display: block;
+      }
+    }
+    .splitpage {
+        overflow: hidden;
+        background-color: #555;
+        background: linear-gradient(to right, #555 0%, #555 100%, #CC383D 0%, #CC383D 0%);
+        .redhalf a {
+            position: relative;
+            bottom: inherit;
+        }
+    }
+    .splitpage .redhalf {
+        background-color: #CC383D;
+        padding: 40px 0px;
+    }
+    .testimonial-content {
+        width: 100%;
+    }
+    .splitpage .latestposts {
+        padding: 0px 0px 0px 0px;
+    }
+    .alignright, .alignleft{
+      margin: 0px!important;
+    }
+    .carousel-title{
+      margin-bottom: 0px!important;
+    }
+    .industriespage .imagebox {
+        width: 245px;
+        float: none;
+        margin-right: 70px;
+    }
+    .mobileredbackground{
+      display: block;
+      position: absolute;
+      left: -30%;
+      background-color: #cc383c;
+      height: 100%;
+      width: 2000%;
+      top: 0px;
+      z-index: 0;
+    }
+    .mobilecontainer{
+      display: block;
+      position: relative;
+      z-index: 20;
+    }
+    .mobilelineheight{
+      line-height: 1;
+    }
+    .PageSummary .row{
+        padding: 20px 0px;
+    }
+    .post_title {
+        padding-bottom: 0px;
+        h1{
+          line-height: 1;
+        }
+    }
+    .row {
+        padding: 20px 0px;
+    }
+    .single-post .blog-sidebar {
+        padding: 40px 25px;
+        margin: 20px 0 !important;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .certifiedlist{
+    float: left;
+    width: 100%;
+  }
+  .signupform .button {
+      border: 0px;
+      margin-left: 0px;
+  }
+
+  .xraycert{
+      display: inline-block;
+      min-width: 0px;
+      width: 100%;
+      img{
+        float: left;
+        clear: both;
+        margin-right: 10px;
+      }
+      p{
+        float: left;
+        margin-bottom: 0px;
+        clear: both;
+        margin-top: 10px;
+      }
+    br{
+      display: none;
+    }
+  }
+  .xraycert2{
+    display: inline-block;
+    min-width: 0px;
+    width: 100%;
+    img{
+      float: left;
+      clear: both;
+      margin-right: 10px;
+    }
+    p{
+      float: left;
+      margin-bottom: 0px;
+      clear: both;
+      margin-top: 10px;
+    }
+    br{
+      display: none;
+    }
+  }
+  .validsection{
+    .col{
+      min-width: 0px;
+      width: 100%;
+      max-width: 100%;
+    }
+    p{
+      float: left;
+      clear: both;
+    }
+    h2{
+      float: left;
+      clear: both;
+    }
+  }
+
+}
+
+@media only screen and (max-width: $screen-xsm-max) {
+      .signupform input[type="text"], .signupform input[type="email"], .signupform input[type="tel"],
+      .signupform input[type="password"], .signupform input[type="number"]{
+        width: 100%;
+      }
+      .blog-content {
+          overflow: hidden;
+      }
+      .mobile-icons a {
+          padding-top: 3px;
+      }
+      .sticky-header .header-nav {
+          height: 50px;
+      }
+      .sticky-header .stickylogo {
+        width: 120px;
+      }
+      .slider-content h1 {
+          font-size: 4rem;
+          line-height: 1.6;
+      }
+      .socialIcons {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+        margin: auto;
+        display: block;
+        width: 135px;
+        clear: both;
+    }
+    #headerTop .right {
+        float: none;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        margin: auto;
+        width: 100%;
+    }
+    #longform {
+        transform: scale(0.80);
+        -webkit-transform: scale(0.80);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+    .col-sm-12,
+    .col-xsm-12,
+    .col-md-12,
+    .col-lg-12 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    header, main{
+      display: block;
+      overflow-x: hidden;
+    }
+    .sticky-header {
+        padding-top: 222px;
+    }
+    .post_title h1 {
+        text-align: center;
+        color: white;
+        font-size: 4rem;
+        padding: 0px 40px;
+        max-width: 1060px;
+        margin: auto;
+        line-height: 1;
+    }
+    .g-recaptcha{
+      transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;
+    }
+    .flex-footer .copyright {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .sticky-header .stickylogo {
+        margin-left: -15px;
+    }
+}

@@ -1,0 +1,269 @@
+html{
+      font-size: 10px;
+}
+body {
+    font-family: $baseFont;
+    font-size: $bodyFontSize;
+    background-color: #fff;
+    color: $textColor;
+    line-height: 1.6;
+}
+.no-scroll {
+    overflow: hidden;
+    #openNavOverlay {
+        display: block;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: $linkColor;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        color: $linkHoverColor;
+    }
+}
+h1 {
+    font-size: $h1FontSize;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+h2 {
+    font-size: $h2FontSize;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+h3 {
+    font-size: $h3FontSize;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+h4 {
+    font-size: $h4FontSize;
+}
+h5 {
+    font-size: $h5FontSize;
+}
+p {
+    font-size: $bodyFontSize;
+    margin-bottom: 2.5rem;
+}
+
+h1,h2,h3,h4,h5 {
+    color: $primaryColor;
+    font-weight: bold;
+}
+ul{
+  margin-bottom: 2.5rem
+}
+.row{
+  padding: 40px 0px;
+}
+.padding100{
+  padding: 100px 0px;
+}
+.padding90{
+  padding: 90px 0px;
+}
+.padding80{
+  padding: 80px 0px;
+}
+.padding70{
+  padding: 70px 0px;
+}
+.padding60{
+  padding: 60px 0px;
+}
+.padding50{
+  padding: 50px 0px;
+}
+.padding40{
+  padding: 40px 0px;
+}
+.padding30{
+  padding: 30px 0px;
+}
+.padding25{
+  padding: 25px 0px;
+}
+.padding20{
+  padding: 20px 0px;
+}
+.padding10{
+  padding: 10px 0px;
+}
+.padding0{
+  padding: 0px;
+}
+.paddingtop0{
+  padding-top: 0px;
+}
+.paddingbottom0{
+  padding-bottom: 0px;
+}
+.paddingright0{
+  padding-right: 0px;
+}
+.paddingleft0{
+  padding-left: 0px;
+}
+.marginb{
+  margin-bottom: 2.5rem;
+}
+.semibold{
+  font-weight: 500;
+}
+.normalfont{
+  font-weight: normal;
+}
+.bold{
+  font-weight: bold;
+}
+.whiteText{
+  color: white!important;
+}
+.blackText{
+  color: black!important;
+}
+.orangeText{
+  color: #F29040!important;
+}
+.greenText{
+  color: #3CA417!important;
+}
+.primaryColor{
+  color: $primaryColor;
+}
+.text-align-center{
+  text-align: center;
+}
+.largetitle{
+  font-size: 4.5rem;
+}
+.largefont p{
+    font-size: $h2FontSize;
+    margin-bottom: 2.5rem;
+    line-height: 5rem;
+}
+.button{
+  background-color: $orange;
+  color: white;
+  padding: 15px 25px;
+  line-height: 1.6;
+  display: inline-block;
+  font-size: $bodyFontSize;
+  transition: background-color 0.2s ease-in-out;
+  min-width: 140px;
+  text-align: center;
+}
+.button:hover{
+  transition: background-color 0.2s ease-in-out;
+  background-color: $secondaryColor;
+  color: white;
+}
+
+.buttonlight{
+  background-color: $orange;
+  color: white;
+  padding: 15px 25px;
+  line-height: 1.6;
+  display: inline-block;
+  font-size: $bodyFontSize;
+  transition: background-color 0.2s ease-in-out;
+}
+.buttonlight:hover{
+  transition: background-color 0.2s ease-in-out;
+  background-color: $secondaryLight;
+  color: white;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+}
+
+.alignleft {
+    float: left;
+}
+
+img.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+img.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 1.6rem;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}

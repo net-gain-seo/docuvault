@@ -1,0 +1,83 @@
+// Only IE 10 and 11 understand this media query
+@media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    // classes
+}
+
+
+
+// Breakpoint specific
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 1199px) {
+    .f-home {
+        display: block !important;
+    }
+}
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 992px) {
+    .pcard {
+        flex-basis: 50%;
+    }
+}
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 991px) {
+    // classes
+    .contact-page-form {
+        p {
+            flex-basis: 46%;
+        }
+    }
+
+    .footer-form {
+        > .wpcf7-form-control-wrap { // recaptcha container
+            flex: 0 1 30%;
+            outline: none;
+            align-self: flex-start;
+            margin-top: 1rem;
+        }
+        .submit-container {
+            flex-basis: 100%;
+        }
+    }
+
+    .pcard {
+        min-height: 630px; // this is so stupid
+        flex-basis: 33.3%;
+    }
+
+    .flex-footer {
+        display: block;
+    }
+}
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 767px) {
+
+    .pcard {
+        min-height: 0; // this is so stupid
+        flex-basis: 100%;
+    }
+}
+
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 500px) {
+    .flex-header {
+        display: block;
+    }
+}
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 491px) {
+    // classes
+    .contact-page-form {
+        p {
+            flex-basis: 100%;
+        }
+    }
+
+    // .pcard-block {
+    //     flex-flow: row wrap; // nesting vertical flexboxes screws with heights
+    //     > h4,
+    //     > div {
+    //         flex-basis: 100%;
+    //     }
+    // }
+
+}
